@@ -4,8 +4,6 @@ public class HarryPotter {
     public static void main(String[] args) {
         int[] B = {6,5,4,3,2};
 
-        int[] tempB = B;
-
         int price = 0;
         int discountPrice = 0;
 
@@ -14,16 +12,16 @@ public class HarryPotter {
         }
 //        System.out.println(price);
 
-        int[] b = B;
+        int[] book = B.clone();
 
         int bookDiscountCount[] = {0,0,0,0};
-        while (checkBook(b)) {
+        while (checkBook(book)) {
             int setOfDiscount = 0;
 
             for (int i = 0; i < 5; i++) {
-                if (b[i] - 1 >= 0) {
+                if (book[i] - 1 >= 0) {
                     setOfDiscount++;
-                    b[i] -= 1;
+                    book[i] -= 1;
                 }
             }
             switch (setOfDiscount){
@@ -42,7 +40,8 @@ public class HarryPotter {
         discountPrice += bookDiscountCount[3]*125;
 
         int finalPrice = price - discountPrice;
-        System.out.println("Price after calculate discount: "+finalPrice);
+        System.out.println("Book order: ["+B[0]+","+B[1]+","+B[2]+","+B[3]+","+B[4]+
+                            "]\nPrice after calculate discount: "+finalPrice);
     }
 
     private static boolean checkBook(int[] b){
