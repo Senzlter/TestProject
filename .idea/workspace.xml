@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e2d7631-96de-4c7a-bb0b-759d88215eca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HarryPotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HarryPotter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StringCalculator">
     <configuration name="HarryPotter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HarryPotter" />
       <module name="TestProject" />
@@ -44,8 +44,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringCalculator" />
+      <module name="TestProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringCalculator" />
         <item itemvalue="Application.HarryPotter" />
       </list>
     </recent_temporary>
@@ -68,21 +76,21 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="779" y="216" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591364454679" />
-    <state width="1876" height="285" key="GridCell.Tab.0.bottom" timestamp="1591366259128">
+    <state width="1876" height="285" key="GridCell.Tab.0.bottom" timestamp="1591368079701">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1591366259128" />
-    <state width="1876" height="285" key="GridCell.Tab.0.center" timestamp="1591366259128">
+    <state width="1876" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1591368079701" />
+    <state width="1876" height="285" key="GridCell.Tab.0.center" timestamp="1591368079701">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1591366259128" />
-    <state width="1876" height="285" key="GridCell.Tab.0.left" timestamp="1591366259127">
+    <state width="1876" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1591368079701" />
+    <state width="1876" height="285" key="GridCell.Tab.0.left" timestamp="1591368079701">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1591366259127" />
-    <state width="1876" height="285" key="GridCell.Tab.0.right" timestamp="1591366259128">
+    <state width="1876" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1591368079701" />
+    <state width="1876" height="285" key="GridCell.Tab.0.right" timestamp="1591368079701">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1591366259128" />
+    <state width="1876" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1591368079701" />
   </component>
 </project>
